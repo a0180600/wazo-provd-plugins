@@ -172,7 +172,7 @@ description: Language pack for Yealink T58A and CP960
 description_fr: Paquet de langues pour Yealink T58A et CP960
 version: 84.0.30
 files: T58_CP960-lang
-install: yealink-T57W-lang
+install: yealink-T58_CP960-lang
 
 
 
