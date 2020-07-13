@@ -259,7 +259,6 @@ def build_10_1_26_1(path):
 
     check_call(['rsync', '-rlp', '--exclude', '.*',
                 '10.1.26.1/', path])
-<<<<<<< HEAD:plugins/xivo-snom/build.py
 
 
 @target('10.1.42.14', 'wazo-snom-10.1.42.14')
@@ -324,8 +323,6 @@ def build_10_1_42_14(path):
 
     check_call(['rsync', '-rlp', '--exclude', '.*',
                 '10.1.42.14/', path])
-||||||| merged common ancestors
-=======
 
 
 @target('10.1.39.11', 'wazo-snom-10.1.39.11')
@@ -591,4 +588,3 @@ def build_10_1_54_13(path):
 
     check_call(['rsync', '-rlp', '--exclude', '.*',
                 '10.1.54.13/', path])
->>>>>>> WAZO-1723-yealink-server-url:plugins/wazo-snom/build.py
